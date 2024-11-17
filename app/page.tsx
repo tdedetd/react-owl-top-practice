@@ -1,5 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import styles from './page.module.css';
+import { Metadata } from 'next';
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Computed meta',
+  };
+}
 
 export default function Home(): JSX.Element {
   return (

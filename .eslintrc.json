@@ -11,7 +11,8 @@
       {
         "allowSingleExtends": true
       }
-    ]
+    ],
+    "quotes": ["error", "single"]
   },
   "extends": [
     "eslint:recommended",
