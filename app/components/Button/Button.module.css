@@ -1,0 +1,21 @@
+.btn {
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.gray {
+  background-color: var(--gray);
+}
+
+.gray:hover {
+  background-color: var(--gray-hover);
+}
+
+.primary {
+  background-color: var(--primary);
+}
+
+.primary:hover {
+  background-color: var(--primary-hover);
+}
