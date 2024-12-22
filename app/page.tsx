@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { ClicksCounter, Header, P } from '../components';
+import { ClicksCounter } from '../components';
 import React from 'react';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -13,11 +13,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function Home(): JSX.Element {
   return (
     <>
-      <Header />
       <ClicksCounter min={5} max={9}></ClicksCounter>
-      <P size='s'>Напишу сразу в&nbsp;двух курсах, так как проходил оба. Java будет многим непросвещённым сложновата в&nbsp;изучении, но&nbsp;здесь перевес из-за лидирующего положения языка как самого популярного в&nbsp;программировании. Выбор мой пал на&nbsp;эту профессию еще и&nbsp;потому, что Java-разработчики получают самую большую зарплату. Хотя Python начинает догонять Java по&nbsp;многим моментам, но&nbsp;вот в&nbsp;крупном екоме разработке Джава все-таки остается главенствующей сейчас. Скажу так&nbsp;&mdash; полнота программы и&nbsp;интенсивность присуща обоим курсам GeekBrains. Хочу отметить, что с&nbsp;первого дня занятий вы&nbsp;приступаете к&nbsp;практике и&nbsp;получаете опыт коммерческой разработки уже в&nbsp;свое резюме. Скажу вам как прошедший это&nbsp;&mdash; реально помогло в&nbsp;трудоустройстве!</P>
-      <P size='m'>Студенты освоят не&nbsp;только hard skills, необходимые для работы веб-дизайнером, но&nbsp;и&nbsp;soft skills&nbsp;&mdash; навыки, которые позволят эффективно взаимодействовать в&nbsp;команде с&nbsp;менеджерами, разработчиками и&nbsp;маркетологами. Выпускники факультета могут успешно конкурировать с&nbsp;веб-дизайнерами уровня middle.</P>
-      <P size='l'>Выше указаны программы Adobe InDesign, Adobe Illustrator, Corel Draw и&nbsp;ими можно успешно пользоваться дома или в&nbsp;дороге. Современные ноутбуки хорошо справляются с&nbsp;нагрузкой, так зачем загонять специалиста в&nbsp;душный офис. В&nbsp;этой профессии важным считается вдохновение, поэтому дизайнеры ищут его в&nbsp;разных местах.</P>
     </>
   );
 }
