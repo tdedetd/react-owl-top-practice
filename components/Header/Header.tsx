@@ -1,6 +1,6 @@
 import { Htitle } from '../Htitle/Htitle';
 import { HeaderProps } from './Header.props';
-import Logo from '../../../public/vercel.svg';
+import Logo from '../../public/vercel.svg';
 import styles from './Header.module.css';
 
 export function Header({}: HeaderProps): JSX.Element {

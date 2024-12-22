@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { ClicksCounter, Header, P } from './components';
+import { ClicksCounter, Header, P } from '../components';
 import React from 'react';
 
 export async function generateMetadata(): Promise<Metadata> {
