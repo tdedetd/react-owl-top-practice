@@ -22,7 +22,7 @@ export function ClicksCounter({ min = 1, max = 10 }: ClicksCounterProps): JSX.El
   return (
     <>
       <div>
-        <Button appearance='primary' onClick={increaseCount}>+</Button>
+        <Button appearance='primary' onClick={increaseCount} arrow='down'>+</Button>
         <Button appearance='gray' onClick={decreaseCount}>-</Button>
       </div>
       <p>{clicksCount}</p>
