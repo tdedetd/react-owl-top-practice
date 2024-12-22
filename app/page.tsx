@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { ClicksCounter, Htitle } from './components';
+import { ClicksCounter, Header } from './components';
 import React from 'react';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -11,7 +11,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function Home(): JSX.Element {
   return (
     <>
-      <Htitle tag='h1'>Text</Htitle>
+      <Header />
       <ClicksCounter min={5} max={9}></ClicksCounter>
     </>
   );
