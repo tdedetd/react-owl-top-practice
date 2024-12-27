@@ -1,17 +1,8 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --primary: #0b0b5d;
-  --primary-hover: #12126c;
-  --gray: #444;
-  --gray-hover: #545454;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #F5F6F8;
+  --foreground: #3B434E;
+  --primary: #7653FC;
+  --primary-hover: #7f5fff;
 }
 
 html,
