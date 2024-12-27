@@ -3,12 +3,13 @@
   --foreground: #3B434E;
   --primary: #7653FC;
   --primary-hover: #7f5fff;
+  --container-max-width: 1492px;
+  --placeholder-color: #A4A4A4;
 }
 
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
 }
 
 body {
@@ -28,10 +29,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

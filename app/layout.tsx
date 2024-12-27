@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Noto_Sans } from 'next/font/google';
+import { Title } from '../components/title/title';
+import { Sidebar } from '../components/sidebar/sidebar';
+import styles from './layout.module.css';
 
 const notoSans = Noto_Sans({
   display: 'swap',
@@ -19,9 +22,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>): JSX.Element {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={`${notoSans.className}`}>
-        {children}
+        <div className={styles.container}>
+          <div className={styles.containerSidebar}>
+            <Title></Title>
+            <Sidebar></Sidebar>
+          </div>
+          <main className={styles.containerMain}>{children}</main>
+        </div>
       </body>
     </html>
   );

@@ -1,0 +1,48 @@
+.root {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  appearance: none;
+  color: var(--foreground);
+  border-radius: 5px;
+  padding: 8px 16px;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .05);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.input::placeholder,
+.input:disabled {
+  color: var(--placeholder-color);
+}
+
+.button {
+  --spacing: 4px;
+  position: absolute;
+  top: var(--spacing);
+  right: var(--spacing);
+  width: 30px;
+  height: calc(100% - var(--spacing) * 2);
+  color: var(--background);
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button:hover:not(:disabled) {
+  background-color: var(--primary-hover);
+}
+
+.button:disabled {
+  cursor: default;
+  color: var(--foreground);
+  background-color: var(--placeholder-color);
+}
