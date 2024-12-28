@@ -1,0 +1,28 @@
+.ul {
+  color: var(--menu-gray);
+}
+
+.li:not(:last-child),
+.childLabel:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.item {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+}
+
+.childern {
+  padding: 10px 0;
+}
+
+.childLabel {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.childLabelSelected {
+  color: var(--primary);
+}

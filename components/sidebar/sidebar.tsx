@@ -1,9 +1,12 @@
-import { Search } from '../search/search';
+import { Menu } from '../Menu/Menu';
+import { Search } from '../Search/Search';
+import styles from './Sidebar.module.css';
 
 export function Sidebar(): JSX.Element {
   return (
     <aside>
-      <Search></Search>
+      <Search className={styles.searchContainer}></Search>
+      <Menu></Menu>
     </aside>
   );
 }

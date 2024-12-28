@@ -1,11 +1,13 @@
-'use client'
+'use client';
 
-import { SearchProps } from './search.props';
-import styles from './search.module.css';
+import { SearchProps } from './Search.props';
+import styles from './Search.module.css';
 import { FormEventHandler, useRef } from 'react';
 import Image from 'next/image';
+import classNames from 'classnames';
 
 export function Search({
+  className,
   disabled,
   onSerchSubmit,
   ...props
@@ -20,7 +22,10 @@ export function Search({
   };
 
   return (
-    <form className={styles.root} onSubmit={onSubmit}>
+    <form
+      className={classNames([styles.root, className].filter(Boolean))}
+      onSubmit={onSubmit}
+    >
       <input
         className={styles.input}
         name='query'

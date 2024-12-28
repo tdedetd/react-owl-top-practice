@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Noto_Sans } from 'next/font/google';
-import { Title } from '../components/title/title';
-import { Sidebar } from '../components/sidebar/sidebar';
+import { Title } from '../components/Title/Title';
+import { Sidebar } from '../components/Sidebar/Sidebar';
 import styles from './layout.module.css';
 
 const notoSans = Noto_Sans({
