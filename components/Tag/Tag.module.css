@@ -1,0 +1,41 @@
+.tag {
+  display: inline-block;
+  padding: 3px 8px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  height: 22px;
+  border-radius: 11px;
+  border: solid 1px transparent;
+}
+
+.tagLarge {
+  padding: 5px 10px;
+  height: 25px;
+  border-radius: calc(25px / 2);
+}
+
+.tagGreen {
+  color: #1DC37E;
+  background-color: #C8F8E4;
+  border-color: #C8F8E4;
+}
+
+.tagRed {
+  color: #FFFFFF;
+  background-color: #DE0000;
+  border-color: #DE0000;
+}
+
+.tagGray {
+  color: #FFFFFF;
+  background-color: #B3C0D9;
+  border-color: #B3C0D9;
+}
+
+.tagWhite {
+  color: var(--foreground);
+  background-color: #FFFFFF;
+  border-color: #EBEBEB;
+  font-weight: 500;
+}

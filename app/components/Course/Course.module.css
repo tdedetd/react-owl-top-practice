@@ -1,0 +1,4 @@
+.block {
+  box-shadow: var(--shadow);
+  border-radius: 5px;
+}

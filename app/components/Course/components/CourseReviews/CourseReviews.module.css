@@ -1,0 +1,5 @@
+.container {
+  padding: 30px;
+  background-color: var(--block-secondary);
+  border-radius: 0 0 5px 5px;
+}

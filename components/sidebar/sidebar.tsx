@@ -1,5 +1,5 @@
 import { Menu } from '../Menu/Menu';
-import { Search } from '../Search/Search';
+import { Search } from '@/components/Search/Search';
 import styles from './Sidebar.module.css';
 
 export function Sidebar(): JSX.Element {

@@ -12,7 +12,7 @@
   padding: 8px 16px;
   padding-right: calc(var(--button-width) + var(--button-spacing) * 2);
   border: none;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, .05);
+  box-shadow: var(--shadow);
   font-family: inherit;
   font-size: 16px;
   line-height: 22px;
