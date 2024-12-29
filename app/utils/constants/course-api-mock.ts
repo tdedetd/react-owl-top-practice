@@ -1,15 +1,15 @@
-import { CourseApi } from '../components/Course/models/course-api.interface';
+import { CourseApi } from '../../components/Course/models/course-api.interface';
 
 export const courseApiMock: CourseApi = {
   name: 'Профессия дизайнер от 0 до PRO',
   description: 'Студенты освоят не только hard skills, необходимые для работы веб-дизайнером, но и soft skills — навыки, которые позволят эффективно взаимодействовать в команде с менеджерами, разработчиками и маркетологами. Выпускники факультета могут успешно конкурировать с веб-дизайнерами уровня middle.',
-  logoUrl: '',
+  logoUrl: '/images/skillbox.png',
   tags: ['Photoshop', 'Дизайн'],
   price: 24000,
   priceDiscount: 10000,
   credit: 5000,
   rate: 4,
-  reviewsCount: 20,
+  reviewsCount: 21,
   document: 'Диплом',
   difficulty: 'Начальная',
   duration: '5 месяцев',

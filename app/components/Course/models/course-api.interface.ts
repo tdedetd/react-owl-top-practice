@@ -1,3 +1,4 @@
+import { Rate } from '@/models/rate.type';
 import { CourseReviewApi } from './course-review-api.interface';
 
 export interface CourseApi {
@@ -8,7 +9,7 @@ export interface CourseApi {
   price: number;
   priceDiscount?: number;
   credit: number;
-  rate: 1 | 2 | 3 | 4 | 5;
+  rate: Rate;
   reviewsCount: number;
   document: string;
   difficulty: string;

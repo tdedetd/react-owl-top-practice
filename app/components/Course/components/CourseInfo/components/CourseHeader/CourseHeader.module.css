@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1399px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px;
+  }
+}
+
+.general {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 30px;
+}
+
+.headingContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  margin-bottom: 8px;
+}
+
+.heading.heading {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.cupContainer {
+  padding: 8px 6px;
+  border: 1px solid #DCB44E;
+  border-radius: 5px;
+}
+
+.cupSvg {
+  display: block;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.indicators {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 575px) {
+  .indicators {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+.indicatorName {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 300;
+}
+
+.indicatorValue {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.priceValue {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.creditValue {
+  display: flex;
+  align-items: baseline;
+}
+
+.creditMonthSuffix {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.rate {
+  margin-bottom: 3px;
+}
