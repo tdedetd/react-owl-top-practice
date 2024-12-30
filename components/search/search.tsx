@@ -5,6 +5,7 @@ import styles from './Search.module.css';
 import { FormEventHandler, useRef } from 'react';
 import Image from 'next/image';
 import classNames from 'classnames';
+import { Button } from '../Button/Button';
 
 export function Search({
   className,
@@ -35,7 +36,8 @@ export function Search({
         ref={inputRef}
         {...props}
       />
-      <button
+      <Button
+        color='primary'
         className={styles.button}
         type='submit'
         disabled={disabled}
@@ -46,7 +48,7 @@ export function Search({
           width={15}
           height={15}
         ></Image>
-      </button>
+      </Button>
     </form>
   );
 }

@@ -23,7 +23,7 @@ export function CourseMain({ course }: CourseMainProps): JSX.Element {
         <div>
           <div className={infoParamsContainerClassName}>
             {infoParams.map((param) => (
-              <div className={styles.infoParam}>
+              <div key={param.key} className={styles.infoParam}>
                 <p className={styles.infoParamName}>{param.name}</p>
                 <div className={styles.infoParamDots} />
                 <p className={styles.infoParamValue}>{String(course[param.key])}</p>

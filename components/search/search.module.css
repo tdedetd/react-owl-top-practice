@@ -29,22 +29,7 @@
   right: var(--button-spacing);
   width: var(--button-width);
   height: calc(100% - var(--button-spacing) * 2);
-  color: var(--background);
-  background-color: var(--primary);
-  border: none;
-  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-}
-
-.button:hover:not(:disabled) {
-  background-color: var(--primary-hover);
-}
-
-.button:disabled {
-  cursor: default;
-  color: var(--foreground);
-  background-color: var(--placeholder-color);
 }
