@@ -9,6 +9,7 @@
   --block: #FFFFFF;
   --block-secondary: #F9F8FF;
   --shadow: 0 4px 4px rgba(0, 0, 0, .05);
+  --color-border: #EBEBEB;
 }
 
 html,

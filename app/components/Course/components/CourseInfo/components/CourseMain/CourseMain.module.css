@@ -1,0 +1,93 @@
+.description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.details {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 991px) {
+  .details {
+    gap: 30px;
+    grid-template-columns: 1fr;
+  }
+}
+
+.infoParamsContainerSpace {
+  margin-bottom: 18px;
+}
+
+.infoParam {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.infoParamName {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.infoParamDots {
+  flex-grow: 1;
+  height: 0;
+  border-bottom: 1px dotted #C4C4C4;
+}
+
+.infoParamValue {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+@media (max-width: 575px) {
+  .infoParamsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .infoParam {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .infoParamDots {
+    display: none;
+  }
+}
+
+.advantages,
+.disadvantages {
+  padding-left: 15px;
+  border-left-width: 3px;
+  border-left-style: solid;
+}
+
+.advantages {
+  border-left-color: #1DC37E;
+  margin-bottom: 20px;
+}
+
+.disadvantages {
+  border-left-color: #FC836D;
+}
+
+.rightHeading {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.rightText {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}

@@ -36,6 +36,6 @@
 .tagWhite {
   color: var(--foreground);
   background-color: #FFFFFF;
-  border-color: #EBEBEB;
+  border-color: var(--color-border);
   font-weight: 500;
 }

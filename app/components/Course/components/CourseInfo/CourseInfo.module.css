@@ -1,3 +1,9 @@
+.divider {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 20px;
+}
+
 .container {
   padding: 30px;
   background-color: var(--block);
