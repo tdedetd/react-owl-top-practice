@@ -3,3 +3,9 @@
   background-color: var(--block-secondary);
   border-radius: 0 0 5px 5px;
 }
+
+.divider {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 30px;
+}

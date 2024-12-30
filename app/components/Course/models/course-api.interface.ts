@@ -2,6 +2,7 @@ import { Rate } from '@/models/rate.type';
 import { CourseReviewApi } from './course-review-api.interface';
 
 export interface CourseApi {
+  id: number;
   name: string;
   description: string;
   logoUrl: string;
