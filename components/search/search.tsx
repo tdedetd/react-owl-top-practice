@@ -6,6 +6,7 @@ import { FormEventHandler, useRef } from 'react';
 import Image from 'next/image';
 import classNames from 'classnames';
 import { Button } from '../Button/Button';
+import { TextField } from '../TextField/TextField';
 
 export function Search({
   className,
@@ -27,15 +28,16 @@ export function Search({
       className={classNames([styles.root, className].filter(Boolean))}
       onSubmit={onSubmit}
     >
-      <input
+      <TextField
+        type='text'
         className={styles.input}
         name='query'
-        type='text'
         placeholder='Поиск...'
         disabled={disabled}
         ref={inputRef}
         {...props}
-      />
+      ></TextField>
+
       <Button
         color='primary'
         className={styles.button}

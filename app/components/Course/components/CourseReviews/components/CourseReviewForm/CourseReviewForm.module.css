@@ -1,0 +1,92 @@
+.title,
+.left,
+.right,
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .title {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .left {
+    margin-bottom: 20px;
+  }
+}
+
+.titleInput {
+  width: 218px;
+}
+
+@media (max-width: 1199px) {
+  .titleInput {
+    width: 175px;
+  }
+}
+
+.left {
+  gap: 30px;
+}
+
+@media (max-width: 575px) {
+  .title {
+    align-items: stretch;
+  }
+
+  .left {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .titleInput {
+    width: 100%;
+  }
+}
+
+.right {
+  gap: 20px;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.textContainer {
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 100%;
+}
+
+.footer {
+  gap: 12px;
+}
+
+@media (max-width: 575px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .submitButton {
+    width: 100%;
+  }
+}
+
+.submitButton.submitButton {
+  padding-left: 35px;
+  padding-right: 35px;
+}

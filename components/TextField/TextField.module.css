@@ -1,0 +1,16 @@
+.field {
+  appearance: none;
+  color: var(--foreground);
+  border-radius: 5px;
+  padding: 8px 16px;
+  border: none;
+  box-shadow: var(--shadow);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.field::placeholder,
+.field:disabled {
+  color: var(--placeholder-color);
+}
