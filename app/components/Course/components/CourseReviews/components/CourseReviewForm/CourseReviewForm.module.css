@@ -13,13 +13,10 @@
 
 @media (max-width: 991px) {
   .title {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: flex-start;
-  }
-
-  .left {
-    margin-bottom: 20px;
+    row-gap: 20px;
   }
 }
 

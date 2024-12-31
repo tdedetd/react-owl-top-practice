@@ -1,4 +1,4 @@
-export enum MenuIcons {
+export const enum MenuIcons {
   BOOK = 'book',
   BOX = 'box',
   CLOUD = 'cloud',

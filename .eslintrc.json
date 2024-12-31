@@ -12,6 +12,9 @@
         "allowSingleExtends": true
       }
     ],
+    "@typescript-eslint/no-unused-vars": ["error", {
+      "varsIgnorePattern": "^_"
+    }],
     "quotes": ["error", "single"]
   },
   "extends": [

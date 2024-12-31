@@ -15,7 +15,14 @@
 .general {
   display: flex;
   align-items: flex-start;
-  column-gap: 30px;
+  gap: 30px;
+}
+
+@media (max-width: 575px) {
+  .general {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 .headingContainer {
