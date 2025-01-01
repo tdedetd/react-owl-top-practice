@@ -1,0 +1,37 @@
+.heading {
+  margin-bottom: 30px;
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+  column-gap: 40px;
+  row-gap: 17px;
+  margin-bottom: 30px;
+}
+
+.featureTitle {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.lineContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.line {
+  width: 0;
+  border-left: 1px solid #D2D2D2;
+}
+
+.featureDescription,
+.technologyDescription {
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 400;
+}

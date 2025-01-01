@@ -39,3 +39,8 @@
   border-color: var(--color-border);
   font-weight: 500;
 }
+
+.tagPurple {
+  color: var(--primary);
+  border-color: var(--primary);
+}

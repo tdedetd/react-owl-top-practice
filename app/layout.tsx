@@ -31,6 +31,13 @@ export default function RootLayout({
           </div>
           <main className={styles.containerMain}>{children}</main>
         </div>
+        <footer className={styles.footer}>
+          <p>OwlTop © 2020 - 2021 Все права защищены</p>
+          <div className={styles.right}>
+            <p>Пользовательское соглашение</p>
+            <p>Политика конфиденциальности</p>
+          </div>
+        </footer>
       </body>
     </html>
   );

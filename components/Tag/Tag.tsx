@@ -12,6 +12,7 @@ const colorClasses: Record<TagProps['color'], string> = {
   green: styles.tagGreen,
   red: styles.tagRed,
   white: styles.tagWhite,
+  purple: styles.tagPurple,
 };
 
 export function Tag({ color, size, children, className, ...props }: TagProps): JSX.Element {
