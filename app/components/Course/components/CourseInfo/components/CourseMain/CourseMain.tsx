@@ -1,6 +1,6 @@
 import { CourseMainProps } from './CourseMainProps';
 import styles from './CourseMain.module.css';
-import { CourseApi } from '../../../../models/course-api.interface';
+import { CourseApi } from '../../../../../../models/course-api.interface';
 import { Tag } from '@/components/Tag/Tag';
 import classNames from 'classnames';
 

@@ -13,12 +13,14 @@
   }
 }
 
-.titleLeft {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.headingTag {
+  margin-left: 20px;
 }
 
 .course {
+  margin-bottom: 50px;
+}
+
+.vacanciesSection {
   margin-bottom: 50px;
 }

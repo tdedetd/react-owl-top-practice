@@ -1,4 +1,4 @@
-import { CourseApi } from '../../components/Course/models/course-api.interface';
+import { CourseApi } from '../../models/course-api.interface';
 
 export const courseApiMock: CourseApi = {
   id: 761,

@@ -1,0 +1,83 @@
+.header {
+  margin-bottom: 25px;
+}
+
+.headingTag {
+  margin-left: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+
+.cardCount,
+.cardSalaries {
+  box-shadow: var(--shadow);
+  border-radius: 5px;
+  background-color: var(--block);
+  padding: 20px;
+}
+
+.cardCount {
+  width: 260px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 1199px) {
+  .cards {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cardCount {
+    width: unset;
+  }
+}
+
+.vacanciesCountName {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.vacanciesCountValue {
+  color: var(--primary);
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: 700;
+}
+
+.cardSalaries {
+  flex-grow: 1;
+  height: 140px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.salary:not(:last-child) {
+  border-right: 1px solid var(--color-border);
+}
+
+@media (max-width: 991px) {
+  .cardSalaries {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: unset;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .salary {
+    padding: 20px;
+  }
+
+  .salary:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+}

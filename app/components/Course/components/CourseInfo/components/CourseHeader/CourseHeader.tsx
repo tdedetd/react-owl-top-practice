@@ -5,14 +5,9 @@ import styles from './CourseHeader.module.css';
 import { Heading } from '@/components/Heading/Heading';
 import { pluralize } from '@/utils/functions/pluralize';
 import { Rating } from '@/components/Rating/Rating';
+import { currencyFormat } from '@/utils/constants/currency-format';
 
 export function CourseHeader({ course }: CourseHeaderProps): JSX.Element {
-  const currencyFormat = new Intl.NumberFormat('ru-RU', {
-    style: 'currency',
-    currency: 'RUB',
-    maximumFractionDigits: 0
-  });
-
   return (
     <header className={styles.header}>
       <div className={styles.general}>
