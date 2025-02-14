@@ -2,9 +2,8 @@ import classNames from 'classnames';
 import { TagProps } from './Tag.props';
 import styles from './Tag.module.css';
 
-const sizeClasses: Record<TagProps['size'], string> = {
+const sizeClasses: Partial<Record<TagProps['size'], string>> = {
   large: styles.tagLarge,
-  normal: '',
 };
 
 const colorClasses: Record<TagProps['color'], string> = {

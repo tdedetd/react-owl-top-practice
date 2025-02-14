@@ -16,7 +16,7 @@ export function TextField({ className, ...props }: TextFieldProps): JSX.Element 
       ></textarea>
     );
   } else {
-    const { type = 'text', ...inputProps } = props;
+    const { type, ...inputProps } = props;
     return (
       <input
         className={fieldClassName}
